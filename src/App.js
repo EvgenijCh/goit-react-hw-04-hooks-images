@@ -88,8 +88,9 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
    
   useEffect(() => {
-    
-    });
+    if (!query)
+      return;
+      });
          
     
 
